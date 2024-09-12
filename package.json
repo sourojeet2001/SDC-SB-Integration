@@ -1,0 +1,27 @@
+{
+  "name": "sdctest",
+  "private": true,
+  "scripts": {
+    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@storybook/html": "^8.2.9",
+    "@storybook/html-webpack5": "^8.3.0",
+    "babel-loader": "^9.1.3",
+    "chromatic": "^11.9.0",
+    "drupal-attribute": "^1.1.0",
+    "js-yaml-loader": "^1.2.2",
+    "livereload": "^0.9.3",
+    "twig": "^1.17.1",
+    "twig-drupal-filters": "^3.2.0",
+    "twig-loader": "^0.5.5"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

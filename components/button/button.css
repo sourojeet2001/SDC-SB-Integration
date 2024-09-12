@@ -1,0 +1,25 @@
+.mybutton {
+  border: 0;
+  padding: 1.125rem 2rem;
+  line-height: 1.25;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 0;
+  cursor: pointer;
+  outline-color: transparent;
+  min-width: 190px;
+  overflow: clip;
+  position: relative;
+  transition: all .3s linear;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: red;
+}
+.button-primary {
+  background: #ff774c;
+}
+.button-secondary {
+  background: midnightblue;
+}

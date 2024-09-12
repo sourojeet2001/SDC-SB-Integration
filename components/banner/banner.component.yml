@@ -1,0 +1,31 @@
+# banner.component.yml
+name: Banner
+# Schema for the props, defined using key:value pairs https://json-schema.org/
+props:
+  type: object # Props are always an object with keys.
+  properties: # variables printed in the component template.
+    background:
+      type: string
+      title: Image URL
+      examples:
+        - https://example.org
+    title:
+      type: string
+      title: Text
+      examples:
+        - Hero Text
+    subtitle:
+      type: string
+      title: Text
+      examples:
+        - Hero Sub
+    description:
+      type: string
+      title: Text
+      examples:
+        - Hero Description
+    cta:
+      type: string
+      title: CTA Button
+      examples:
+        - Click me! # as defined in banner.css
